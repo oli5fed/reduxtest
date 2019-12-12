@@ -5,7 +5,7 @@ import { itemsFetchData } from './actions/items';
 
 class App extends React.Component {
   componentDidMount() {
-          this.props.fetchData('https://jlrc.dev.perx.ru/carstock/api/v1/vehicles/?state=active&hidden=false&group=new');
+          this.props.fetchData('https://');
       }
 
       render() {
